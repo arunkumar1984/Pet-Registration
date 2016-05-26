@@ -1,6 +1,9 @@
-# Basic-Project (Master branch)
+# Pet Registration Project
 
-##Warm up Day 04: Basic Project -- 05/23/2016
-To stock up various classes to be created during the course
+#Simple Pet Registation Project -- 05/25/2016
+** Java 7 Application**
+* Java
+* Maven
+Repository for Pet-Registration created by importing the Basic-Project project
 
 [Arunkumar Venkatraman](http://sqasolution.com)

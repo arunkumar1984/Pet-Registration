@@ -75,6 +75,7 @@ public class PetRegistration {
 		petCity = obtainString("What is " + petName + "'s City: ");
 		petState = obtainString("What is " + petName + "'s  State: ");
 		petDOB = obtainString("What is " + petName + "'s  DOB (MM/DD/YYYY): ");
+		petRegPrice = obtainString("What is " + petName + "'s  Registration Price: ");
 
 	}
 }

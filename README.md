@@ -1,6 +1,6 @@
 # Pet Registration Project
 
-#Simple Pet Registation Project -- 05/25/2016
+#Advance Pet Registation Project -- 05/26/2016
 ** Java 7 Application**
 * Java
 * Maven

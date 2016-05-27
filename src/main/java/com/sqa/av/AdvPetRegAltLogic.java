@@ -124,11 +124,11 @@ public class AdvPetRegAltLogic {
 		System.out.println(" Pet #" + (petCount + 1) + " Details:");
 		System.out.println("----------------------------------------");
 		petNames[petCount] = obtainString("What is your pet's name: ");
-		petAddresses[petCount] = obtainString("What is " + petNames + "'s Address: ");
-		petCities[petCount] = obtainString("What is " + petNames + "'s City: ");
-		petStates[petCount] = obtainString("What is " + petNames + "'s  State: ");
-		petDOBs[petCount] = obtainString("What is " + petNames + "'s  DOB (MM/DD/YYYY): ");
-		petRegPrices[petCount] = obtainString("What is " + petNames + "'s  Registration Price: ");
+		petAddresses[petCount] = obtainString("What is " + petNames[petCount] + "'s Address: ");
+		petCities[petCount] = obtainString("What is " + petNames[petCount] + "'s City: ");
+		petStates[petCount] = obtainString("What is " + petNames[petCount] + "'s  State: ");
+		petDOBs[petCount] = obtainString("What is " + petNames[petCount] + "'s  DOB (MM/DD/YYYY): ");
+		petRegPrices[petCount] = obtainString("What is " + petNames[petCount] + "'s  Registration Price: ");
 		System.out.println("----------------------------------------");
 
 	}

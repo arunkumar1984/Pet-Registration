@@ -41,7 +41,7 @@ public class AdvPetReg {
 	}
 
 	private static void displayPetDetails() {
-		for (int i = 1; i <= numPetToReg; i++) {
+		for (int i = 0; i < numPetToReg; i++) {
 			System.out.println("\n Pet Details:");
 			System.out.println("-----------------------");
 			System.out.println("name: " + petNames[i]);
@@ -126,7 +126,7 @@ public class AdvPetReg {
 		petDOB = new String[numPetToReg];
 		petRegPrices = new String[numPetToReg];
 
-		for (int i = 1; i <= numPetToReg; i++) {
+		for (int i = 0; i < numPetToReg; i++) {
 			petNames[i] = obtainString("What is your pet's name: ");
 			petAddresses[i] = obtainString("What is " + petNames[i] + "'s Address: ");
 			petCities[i] = obtainString("What is " + petNames[i] + "'s City: ");
